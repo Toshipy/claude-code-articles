@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: 0 0% 4%;
+  --foreground: 0 0% 98%;
+  --card: 0 0% 8%;
+  --card-foreground: 0 0% 98%;
+  --primary: 38 92% 50%;
+  --primary-foreground: 0 0% 0%;
+  --primary-hover: 43 96% 56%;
+  --muted: 0 0% 10%;
+  --muted-foreground: 240 4% 65%;
+  --border: 0 0% 15%;
+  --success: 142 71% 45%;
+  --destructive: 0 84% 60%;
+  --code-bg: 213 27% 7%;
+  --ring: 38 92% 50%;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #fafafa;
+  font-family: Inter, "Noto Sans JP", system-ui, sans-serif;
+}
+
+code, pre {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
